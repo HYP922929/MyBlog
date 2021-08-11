@@ -1,0 +1,13 @@
+2021-07-27 01:09:57.291  WARN 6716 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h24s340ms).
+2021-07-27 03:10:52.089  WARN 6716 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h24s782ms).
+2021-07-27 04:10:02.813  WARN 6716 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58m10s706ms).
+2021-07-27 06:10:25.649  WARN 6716 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h22s836ms).
+2021-07-27 08:11:20.083  WARN 6716 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h24s449ms).
+2021-07-27 08:45:10.766  WARN 6716 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m20s677ms).
+2021-07-27 08:48:10.521  WARN 6716 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s733ms), soft-evicting connections from pool.
+2021-07-27 12:20:13.637  WARN 6716 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s781ms), soft-evicting connections from pool.
+2021-07-27 19:42:42.732  INFO 8445 --- [main] com.hyp.BlogApplication                  : Starting BlogApplication using Java 1.8.0_291 on HYPAir.local with PID 8445 (/Users/macbook/Desktop/springsecurityworkspace/blog/target/classes started by macbook in /Users/macbook/Desktop/springsecurityworkspace/blog)
+2021-07-27 19:42:42.738  INFO 8445 --- [main] com.hyp.BlogApplication                  : The following profiles are active: pro
+2021-07-27 19:42:47.040  WARN 8445 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-07-27 19:42:48.319  WARN 8445 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-27 19:42:48.915  INFO 8445 --- [main] com.hyp.BlogApplication                  : Started BlogApplication in 7.336 seconds (JVM running for 8.698)

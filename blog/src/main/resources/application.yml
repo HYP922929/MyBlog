@@ -1,0 +1,9 @@
+spring:
+  thymeleaf:
+    mode: HTML
+  profiles:
+    active: dev
+    jpa:
+      open-in-view: false
+
+comment.avatar: /images/avatar.jpeg

@@ -1,0 +1,10 @@
+2021-07-26 21:23:43.754  INFO 6716 --- [main] com.hyp.BlogApplication                  : Starting BlogApplication using Java 1.8.0_291 on HYPAir.local with PID 6716 (/Users/macbook/Desktop/springsecurityworkspace/blog/target/classes started by macbook in /Users/macbook/Desktop/springsecurityworkspace/blog)
+2021-07-26 21:23:43.759  INFO 6716 --- [main] com.hyp.BlogApplication                  : The following profiles are active: pro
+2021-07-26 21:23:47.127  WARN 6716 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-07-26 21:23:48.367  WARN 6716 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-26 21:23:48.984  WARN 6716 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-07-26 21:23:49.894  INFO 6716 --- [main] com.hyp.BlogApplication                  : Started BlogApplication in 7.55 seconds (JVM running for 9.211)
+2021-07-26 21:34:17.049  WARN 6716 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=9m59s240ms).
+2021-07-26 21:54:55.772  WARN 6716 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=20m8s721ms).
+2021-07-26 22:52:08.820  WARN 6716 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=57m13s48ms).
+2021-07-26 23:09:02.940  WARN 6716 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m23s725ms).

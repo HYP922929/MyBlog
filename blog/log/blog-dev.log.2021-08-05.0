@@ -1,0 +1,258 @@
+2021-08-05 00:01:33.040  WARN 21683 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17m42s679ms).
+2021-08-05 02:01:58.009  WARN 21683 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h24s976ms).
+2021-08-05 02:19:05.319  WARN 21683 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m36s651ms).
+2021-08-05 04:20:00.513  WARN 21683 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h25s176ms).
+2021-08-05 05:01:59.199  WARN 21683 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=41m58s697ms).
+2021-08-05 07:03:21.242  WARN 21683 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2h22s38ms).
+2021-08-05 08:02:17.859  WARN 21683 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58m26s613ms).
+2021-08-05 09:00:15.126  WARN 21683 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=55m57s229ms).
+2021-08-05 09:39:08.100  INFO 21683 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-05 09:39:08.145  INFO 21683 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-05 09:39:08.182  INFO 21683 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-05 20:46:13.099  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : Starting BlogApplication using Java 1.8.0_291 on HYPAir.local with PID 25415 (/Users/macbook/Desktop/springsecurityworkspace/blog/target/classes started by macbook in /Users/macbook/Desktop/springsecurityworkspace/blog)
+2021-08-05 20:46:13.104 DEBUG 25415 --- [restartedMain] com.hyp.BlogApplication                  : Running with Spring Boot v2.4.9, Spring v5.3.9
+2021-08-05 20:46:13.105  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : The following profiles are active: dev
+2021-08-05 20:46:13.273  INFO 25415 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-08-05 20:46:13.274  INFO 25415 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-08-05 20:46:14.829  INFO 25415 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-05 20:46:14.960  INFO 25415 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 103 ms. Found 2 JPA repository interfaces.
+2021-08-05 20:46:16.826  INFO 25415 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-05 20:46:16.849  INFO 25415 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-05 20:46:16.850  INFO 25415 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-05 20:46:17.040  INFO 25415 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-05 20:46:17.041  INFO 25415 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3765 ms
+2021-08-05 20:46:17.598  INFO 25415 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-05 20:46:17.742  INFO 25415 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-05 20:46:18.153  INFO 25415 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-05 20:46:18.419  INFO 25415 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-05 20:46:18.422  WARN 25415 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-08-05 20:46:19.316  INFO 25415 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-05 20:46:19.367  INFO 25415 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-05 20:46:21.356  INFO 25415 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-05 20:46:21.391  INFO 25415 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-05 20:46:21.503  INFO 25415 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-05 20:46:22.636  WARN 25415 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-05 20:46:23.723  INFO 25415 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-08-05 20:46:24.693  INFO 25415 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-05 20:46:24.710  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : Started BlogApplication in 13.596 seconds (JVM running for 16.578)
+2021-08-05 20:46:35.705  INFO 25415 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-05 20:46:35.707  INFO 25415 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-05 20:46:35.709  INFO 25415 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-08-05 20:48:52.124  INFO 25415 --- [Thread-26] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-05 20:48:52.139  INFO 25415 --- [Thread-26] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-05 20:48:52.171  INFO 25415 --- [Thread-26] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-05 20:48:52.824  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : Starting BlogApplication using Java 1.8.0_291 on HYPAir.local with PID 25415 (/Users/macbook/Desktop/springsecurityworkspace/blog/target/classes started by macbook in /Users/macbook/Desktop/springsecurityworkspace/blog)
+2021-08-05 20:48:52.824 DEBUG 25415 --- [restartedMain] com.hyp.BlogApplication                  : Running with Spring Boot v2.4.9, Spring v5.3.9
+2021-08-05 20:48:52.825  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : The following profiles are active: dev
+2021-08-05 20:48:53.266  INFO 25415 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-05 20:48:53.305  INFO 25415 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 36 ms. Found 2 JPA repository interfaces.
+2021-08-05 20:48:53.631  INFO 25415 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-05 20:48:53.632  INFO 25415 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-05 20:48:53.633  INFO 25415 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-05 20:48:53.658  INFO 25415 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-05 20:48:53.659  INFO 25415 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 826 ms
+2021-08-05 20:48:53.815  INFO 25415 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-05 20:48:53.822  INFO 25415 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-08-05 20:48:53.822  WARN 25415 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-08-05 20:48:53.888  INFO 25415 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-08-05 20:48:53.888  INFO 25415 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-05 20:48:54.514  INFO 25415 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-05 20:48:54.515  INFO 25415 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-05 20:48:54.608  INFO 25415 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-05 20:48:55.155  WARN 25415 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-05 20:48:55.598  INFO 25415 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-08-05 20:48:56.014  INFO 25415 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-05 20:48:56.019  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : Started BlogApplication in 3.422 seconds (JVM running for 167.882)
+2021-08-05 20:48:56.022  INFO 25415 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-05 20:49:28.530  INFO 25415 --- [Thread-38] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-05 20:49:28.535  INFO 25415 --- [Thread-38] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2021-08-05 20:49:28.553  INFO 25415 --- [Thread-38] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2021-08-05 20:49:28.914  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : Starting BlogApplication using Java 1.8.0_291 on HYPAir.local with PID 25415 (/Users/macbook/Desktop/springsecurityworkspace/blog/target/classes started by macbook in /Users/macbook/Desktop/springsecurityworkspace/blog)
+2021-08-05 20:49:28.915 DEBUG 25415 --- [restartedMain] com.hyp.BlogApplication                  : Running with Spring Boot v2.4.9, Spring v5.3.9
+2021-08-05 20:49:28.915  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : The following profiles are active: dev
+2021-08-05 20:49:29.286  INFO 25415 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-05 20:49:29.311  INFO 25415 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+2021-08-05 20:49:29.645  INFO 25415 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-05 20:49:29.646  INFO 25415 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-05 20:49:29.646  INFO 25415 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-05 20:49:29.673  INFO 25415 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-05 20:49:29.673  INFO 25415 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 742 ms
+2021-08-05 20:49:29.787  INFO 25415 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-05 20:49:29.797  INFO 25415 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2021-08-05 20:49:29.798  WARN 25415 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-08-05 20:49:29.838  INFO 25415 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2021-08-05 20:49:29.839  INFO 25415 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-05 20:49:30.283  INFO 25415 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-05 20:49:30.284  INFO 25415 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-05 20:49:30.380  INFO 25415 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-05 20:49:31.114  WARN 25415 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-05 20:49:31.527  INFO 25415 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-08-05 20:49:31.927  INFO 25415 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-05 20:49:31.931  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : Started BlogApplication in 3.096 seconds (JVM running for 203.793)
+2021-08-05 20:49:31.934  INFO 25415 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-05 20:50:29.364  INFO 25415 --- [Thread-42] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-05 20:50:29.373  INFO 25415 --- [Thread-42] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2021-08-05 20:50:29.397  INFO 25415 --- [Thread-42] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2021-08-05 20:50:29.874  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : Starting BlogApplication using Java 1.8.0_291 on HYPAir.local with PID 25415 (/Users/macbook/Desktop/springsecurityworkspace/blog/target/classes started by macbook in /Users/macbook/Desktop/springsecurityworkspace/blog)
+2021-08-05 20:50:29.875 DEBUG 25415 --- [restartedMain] com.hyp.BlogApplication                  : Running with Spring Boot v2.4.9, Spring v5.3.9
+2021-08-05 20:50:29.875  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : The following profiles are active: dev
+2021-08-05 20:50:30.200  INFO 25415 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-05 20:50:30.224  INFO 25415 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+2021-08-05 20:50:30.502  INFO 25415 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-05 20:50:30.503  INFO 25415 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-05 20:50:30.504  INFO 25415 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-05 20:50:30.580  INFO 25415 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-05 20:50:30.580  INFO 25415 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 701 ms
+2021-08-05 20:50:30.695  INFO 25415 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-05 20:50:30.709  INFO 25415 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Starting...
+2021-08-05 20:50:30.710  WARN 25415 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-08-05 20:50:30.752  INFO 25415 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Start completed.
+2021-08-05 20:50:30.753  INFO 25415 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-05 20:50:31.219  INFO 25415 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-05 20:50:31.220  INFO 25415 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-05 20:50:31.375  INFO 25415 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-05 20:50:31.953  WARN 25415 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-05 20:50:32.294  INFO 25415 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-08-05 20:50:32.611  INFO 25415 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-05 20:50:32.616  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : Started BlogApplication in 2.82 seconds (JVM running for 264.476)
+2021-08-05 20:50:32.617  INFO 25415 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-05 20:51:22.014  INFO 25415 --- [Thread-46] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-05 20:51:22.021  INFO 25415 --- [Thread-46] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown initiated...
+2021-08-05 20:51:22.057  INFO 25415 --- [Thread-46] com.zaxxer.hikari.HikariDataSource       : HikariPool-4 - Shutdown completed.
+2021-08-05 20:51:22.780  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : Starting BlogApplication using Java 1.8.0_291 on HYPAir.local with PID 25415 (/Users/macbook/Desktop/springsecurityworkspace/blog/target/classes started by macbook in /Users/macbook/Desktop/springsecurityworkspace/blog)
+2021-08-05 20:51:22.781 DEBUG 25415 --- [restartedMain] com.hyp.BlogApplication                  : Running with Spring Boot v2.4.9, Spring v5.3.9
+2021-08-05 20:51:22.781  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : The following profiles are active: dev
+2021-08-05 20:51:23.197  INFO 25415 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-05 20:51:23.231  INFO 25415 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
+2021-08-05 20:51:23.619  INFO 25415 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-05 20:51:23.621  INFO 25415 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-05 20:51:23.621  INFO 25415 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-05 20:51:23.641  INFO 25415 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-05 20:51:23.642  INFO 25415 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 852 ms
+2021-08-05 20:51:23.772  INFO 25415 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-05 20:51:23.782  INFO 25415 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Starting...
+2021-08-05 20:51:23.782  WARN 25415 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-08-05 20:51:23.807  INFO 25415 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Start completed.
+2021-08-05 20:51:23.807  INFO 25415 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-05 20:51:24.094  INFO 25415 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-05 20:51:24.095  INFO 25415 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-05 20:51:24.182  INFO 25415 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-05 20:51:24.812  WARN 25415 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-05 20:51:25.475  INFO 25415 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-08-05 20:51:26.109  INFO 25415 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-05 20:51:26.120  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : Started BlogApplication in 3.619 seconds (JVM running for 317.979)
+2021-08-05 20:51:26.126  INFO 25415 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-05 20:51:27.961  INFO 25415 --- [Thread-50] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-05 20:51:27.963  INFO 25415 --- [Thread-50] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown initiated...
+2021-08-05 20:51:27.977  INFO 25415 --- [Thread-50] com.zaxxer.hikari.HikariDataSource       : HikariPool-5 - Shutdown completed.
+2021-08-05 20:51:28.332  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : Starting BlogApplication using Java 1.8.0_291 on HYPAir.local with PID 25415 (/Users/macbook/Desktop/springsecurityworkspace/blog/target/classes started by macbook in /Users/macbook/Desktop/springsecurityworkspace/blog)
+2021-08-05 20:51:28.333 DEBUG 25415 --- [restartedMain] com.hyp.BlogApplication                  : Running with Spring Boot v2.4.9, Spring v5.3.9
+2021-08-05 20:51:28.333  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : The following profiles are active: dev
+2021-08-05 20:51:28.766  INFO 25415 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-05 20:51:28.800  INFO 25415 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
+2021-08-05 20:51:29.173  INFO 25415 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-05 20:51:29.174  INFO 25415 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-05 20:51:29.174  INFO 25415 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-05 20:51:29.206  INFO 25415 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-05 20:51:29.206  INFO 25415 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 869 ms
+2021-08-05 20:51:29.473  INFO 25415 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-05 20:51:29.483  INFO 25415 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Starting...
+2021-08-05 20:51:29.483  WARN 25415 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-08-05 20:51:29.524  INFO 25415 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Start completed.
+2021-08-05 20:51:29.524  INFO 25415 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-05 20:51:29.915  INFO 25415 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-05 20:51:29.916  INFO 25415 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-05 20:51:30.127  INFO 25415 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-05 20:51:30.872  WARN 25415 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-05 20:51:31.552  INFO 25415 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-08-05 20:51:31.974  INFO 25415 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-05 20:51:31.979  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : Started BlogApplication in 3.717 seconds (JVM running for 323.838)
+2021-08-05 20:51:31.981  INFO 25415 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-05 20:51:35.337  INFO 25415 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-05 20:51:35.339  INFO 25415 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-05 20:51:35.343  INFO 25415 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-08-05 20:54:45.503  INFO 25415 --- [Thread-54] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-05 20:54:45.515  INFO 25415 --- [Thread-54] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown initiated...
+2021-08-05 20:54:45.545  INFO 25415 --- [Thread-54] com.zaxxer.hikari.HikariDataSource       : HikariPool-6 - Shutdown completed.
+2021-08-05 20:54:46.306  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : Starting BlogApplication using Java 1.8.0_291 on HYPAir.local with PID 25415 (/Users/macbook/Desktop/springsecurityworkspace/blog/target/classes started by macbook in /Users/macbook/Desktop/springsecurityworkspace/blog)
+2021-08-05 20:54:46.306 DEBUG 25415 --- [restartedMain] com.hyp.BlogApplication                  : Running with Spring Boot v2.4.9, Spring v5.3.9
+2021-08-05 20:54:46.306  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : The following profiles are active: dev
+2021-08-05 20:54:46.657  INFO 25415 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-05 20:54:46.678  INFO 25415 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+2021-08-05 20:54:46.968  INFO 25415 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-05 20:54:46.969  INFO 25415 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-05 20:54:46.970  INFO 25415 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-05 20:54:47.017  INFO 25415 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-05 20:54:47.018  INFO 25415 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 708 ms
+2021-08-05 20:54:47.219  INFO 25415 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-05 20:54:47.230  INFO 25415 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Starting...
+2021-08-05 20:54:47.230  WARN 25415 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-08-05 20:54:47.269  INFO 25415 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Start completed.
+2021-08-05 20:54:47.269  INFO 25415 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-05 20:54:47.737  INFO 25415 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-05 20:54:47.737  INFO 25415 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-05 20:54:47.800  INFO 25415 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-05 20:54:48.349  WARN 25415 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-05 20:54:48.667  INFO 25415 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-08-05 20:54:48.940  INFO 25415 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-05 20:54:48.945  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : Started BlogApplication in 2.921 seconds (JVM running for 520.798)
+2021-08-05 20:54:48.948  INFO 25415 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-05 21:00:41.580  INFO 25415 --- [Thread-58] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-05 21:00:41.598  INFO 25415 --- [Thread-58] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown initiated...
+2021-08-05 21:00:41.620  INFO 25415 --- [Thread-58] com.zaxxer.hikari.HikariDataSource       : HikariPool-7 - Shutdown completed.
+2021-08-05 21:00:42.487  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : Starting BlogApplication using Java 1.8.0_291 on HYPAir.local with PID 25415 (/Users/macbook/Desktop/springsecurityworkspace/blog/target/classes started by macbook in /Users/macbook/Desktop/springsecurityworkspace/blog)
+2021-08-05 21:00:42.487 DEBUG 25415 --- [restartedMain] com.hyp.BlogApplication                  : Running with Spring Boot v2.4.9, Spring v5.3.9
+2021-08-05 21:00:42.488  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : The following profiles are active: dev
+2021-08-05 21:00:42.832  INFO 25415 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-05 21:00:42.854  INFO 25415 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+2021-08-05 21:00:43.130  INFO 25415 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-05 21:00:43.132  INFO 25415 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-05 21:00:43.134  INFO 25415 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-05 21:00:43.157  INFO 25415 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-05 21:00:43.157  INFO 25415 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 663 ms
+2021-08-05 21:00:43.311  INFO 25415 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-05 21:00:43.320  INFO 25415 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2021-08-05 21:00:43.321  WARN 25415 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-08-05 21:00:43.364  INFO 25415 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2021-08-05 21:00:43.364  INFO 25415 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-05 21:00:43.697  INFO 25415 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-05 21:00:43.697  INFO 25415 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-05 21:00:43.801  INFO 25415 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-05 21:00:44.637  WARN 25415 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-05 21:00:45.313  INFO 25415 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-08-05 21:00:45.788  INFO 25415 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-05 21:00:45.795  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : Started BlogApplication in 3.591 seconds (JVM running for 877.637)
+2021-08-05 21:00:45.797  INFO 25415 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-05 21:01:33.347  INFO 25415 --- [Thread-62] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-05 21:01:33.353  INFO 25415 --- [Thread-62] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2021-08-05 21:01:33.366  INFO 25415 --- [Thread-62] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2021-08-05 21:01:33.665  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : Starting BlogApplication using Java 1.8.0_291 on HYPAir.local with PID 25415 (/Users/macbook/Desktop/springsecurityworkspace/blog/target/classes started by macbook in /Users/macbook/Desktop/springsecurityworkspace/blog)
+2021-08-05 21:01:33.665 DEBUG 25415 --- [restartedMain] com.hyp.BlogApplication                  : Running with Spring Boot v2.4.9, Spring v5.3.9
+2021-08-05 21:01:33.665  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : The following profiles are active: dev
+2021-08-05 21:01:33.961  INFO 25415 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-05 21:01:33.992  INFO 25415 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 2 JPA repository interfaces.
+2021-08-05 21:01:34.248  INFO 25415 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-08-05 21:01:34.249  INFO 25415 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-05 21:01:34.249  INFO 25415 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-08-05 21:01:34.272  INFO 25415 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-08-05 21:01:34.272  INFO 25415 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 603 ms
+2021-08-05 21:01:34.385  INFO 25415 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-05 21:01:34.393  INFO 25415 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2021-08-05 21:01:34.393  WARN 25415 --- [restartedMain] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-08-05 21:01:34.417  INFO 25415 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2021-08-05 21:01:34.418  INFO 25415 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-08-05 21:01:34.677  INFO 25415 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-05 21:01:34.678  INFO 25415 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-05 21:01:34.780  INFO 25415 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-08-05 21:01:35.451  WARN 25415 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-05 21:01:35.848  INFO 25415 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-08-05 21:01:36.356  INFO 25415 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-08-05 21:01:36.361  INFO 25415 --- [restartedMain] com.hyp.BlogApplication                  : Started BlogApplication in 2.736 seconds (JVM running for 928.201)
+2021-08-05 21:01:36.363  INFO 25415 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-08-05 21:01:38.581  INFO 25415 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-05 21:01:38.582  INFO 25415 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-05 21:01:38.584  INFO 25415 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-05 21:22:36.961  WARN 25415 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=10m2s371ms).
+2021-08-05 21:42:39.603  WARN 25415 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=20m2s645ms).
+2021-08-05 21:59:54.188  WARN 25415 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=16m44s590ms).
+2021-08-05 22:49:12.699  WARN 25415 --- [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=48m48s510ms).

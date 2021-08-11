@@ -1,0 +1,71 @@
+2021-07-26 20:38:53.659 ERROR 6216 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+java.lang.IllegalStateException: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@17:25 - no applicable action for [maxHistoru], current ElementPath  is [[configuration][appender][rollingPolicy][maxHistoru]]
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[TIME_FILE] - 'File' option has the same value "log/blog-dev.log" as that given for appender [FILE] defined earlier.
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[TIME_FILE] - Collisions detected with FileAppender/RollingAppender instances defined earlier. Aborting.
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[TIME_FILE] - For more information, please visit http://logback.qos.ch/codes.html#earlier_fa_collision
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@27:36 - no applicable action for [append-ref], current ElementPath  is [[configuration][root][append-ref]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@28:38 - no applicable action for [append-ref], current ElementPath  is [[configuration][root][append-ref]]
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:327)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:281)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:239)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:216)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:176)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:169)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:143)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:131)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:82)
+	at org.springframework.boot.SpringApplicationRunListeners.lambda$environmentPrepared$2(SpringApplicationRunListeners.java:63)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:117)
+	at org.springframework.boot.SpringApplicationRunListeners.doWithListeners(SpringApplicationRunListeners.java:111)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:62)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:375)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:333)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1318)
+	at com.hyp.BlogApplication.main(BlogApplication.java:10)
+Caused by: java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@17:25 - no applicable action for [maxHistoru], current ElementPath  is [[configuration][appender][rollingPolicy][maxHistoru]]
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[TIME_FILE] - 'File' option has the same value "log/blog-dev.log" as that given for appender [FILE] defined earlier.
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[TIME_FILE] - Collisions detected with FileAppender/RollingAppender instances defined earlier. Aborting.
+ERROR in ch.qos.logback.core.rolling.RollingFileAppender[TIME_FILE] - For more information, please visit http://logback.qos.ch/codes.html#earlier_fa_collision
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@27:36 - no applicable action for [append-ref], current ElementPath  is [[configuration][root][append-ref]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@28:38 - no applicable action for [append-ref], current ElementPath  is [[configuration][root][append-ref]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:179)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:80)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:132)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:312)
+	... 18 common frames omitted
+
+2021-07-26 21:17:55.580  INFO 6686 --- [main] com.hyp.BlogApplication                  : Starting BlogApplication using Java 1.8.0_291 on HYPAir.local with PID 6686 (/Users/macbook/Desktop/springsecurityworkspace/blog/target/classes started by macbook in /Users/macbook/Desktop/springsecurityworkspace/blog)
+2021-07-26 21:17:55.584 DEBUG 6686 --- [main] com.hyp.BlogApplication                  : Running with Spring Boot v2.4.9, Spring v5.3.9
+2021-07-26 21:17:55.585  INFO 6686 --- [main] com.hyp.BlogApplication                  : The following profiles are active: dev
+2021-07-26 21:17:57.134  INFO 6686 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-07-26 21:17:57.173  INFO 6686 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 14 ms. Found 0 JPA repository interfaces.
+2021-07-26 21:17:58.211  INFO 6686 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-07-26 21:17:58.248  INFO 6686 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-07-26 21:17:58.248  INFO 6686 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.50]
+2021-07-26 21:17:58.535  INFO 6686 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-07-26 21:17:58.536  INFO 6686 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2804 ms
+2021-07-26 21:17:58.936  INFO 6686 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-07-26 21:17:59.041  INFO 6686 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-07-26 21:17:59.363  INFO 6686 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-07-26 21:17:59.690  INFO 6686 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-07-26 21:17:59.694  WARN 6686 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-07-26 21:18:00.814  INFO 6686 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-07-26 21:18:00.878  INFO 6686 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-07-26 21:18:01.473  INFO 6686 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-07-26 21:18:01.502  INFO 6686 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 21:18:01.634  WARN 6686 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-07-26 21:18:02.194  WARN 6686 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-07-26 21:18:02.396  INFO 6686 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-07-26 21:18:02.422  INFO 6686 --- [main] com.hyp.BlogApplication                  : Started BlogApplication in 7.938 seconds (JVM running for 9.378)
+2021-07-26 21:22:24.568  INFO 6686 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-26 21:22:24.569  INFO 6686 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-07-26 21:22:24.571  INFO 6686 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-07-26 21:23:39.715  INFO 6686 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-07-26 21:23:39.725  INFO 6686 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-07-26 21:23:39.752  INFO 6686 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
